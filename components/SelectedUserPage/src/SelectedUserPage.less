@@ -1,0 +1,26 @@
+.SelectedUserPage {
+  flex: 1;
+  overflow: auto;
+
+  &-title {
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    padding: @page-title-padding;
+  }
+
+  &-avatar {
+    border-radius: @page-avatar-border-radius;
+    display: block;
+    flex: 0 0 auto;
+    margin: @page-avatar-margin;
+    width: @page-avatar-width;
+    height: @page-avatar-height;
+  }
+
+  &-name {
+    display: block;
+    flex: 1;
+    margin: 0 0 0 @default-margin;
+  }
+}

@@ -1,0 +1,31 @@
+.UserItem {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+
+  &-avatar {
+    border-radius: @list-avatar-border-radius;
+    display: block;
+    flex: 0 0 auto;
+    margin: @list-avatar-margin;
+    width: @list-avatar-width;
+    height: @list-avatar-height;
+  }
+
+  &-info {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    margin: 0 0 0 @default-margin;
+  }
+
+  &-name,
+  &-misc {
+    display: block;
+    flex: 1;
+  }
+
+  &-misc {
+    color: @subtle-color;
+  }
+}

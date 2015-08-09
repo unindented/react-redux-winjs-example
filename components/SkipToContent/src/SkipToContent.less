@@ -1,0 +1,16 @@
+.SkipToContent {
+  display: block;
+  line-height: @header-height;
+  padding: 0 @default-padding;
+  text-decoration: none;
+  transition: top .25s ease-in-out;
+  position: absolute;
+  top: -@header-height;
+  left: 0;
+
+  &:active,
+  &:focus,
+  &:hover {
+    top: 0;
+  }
+}

@@ -1,0 +1,81 @@
+@import "reset.less";
+@import "~winjs/css/ui-light.css";
+
+/**
+ * Style body as a flex container.
+ */
+
+body {
+  display: flex;
+}
+
+/**
+ * Style list view to avoid hardcoded height.
+ */
+
+.win-listview {
+  height: auto;
+  overflow: auto;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+ * Style headers in grouped lists so that the show up as small squares.
+ */
+
+.win-listview.win-groups > .win-vertical .win-listlayout .win-groupheadercontainer {
+  margin: @default-padding;
+}
+
+.win-listview.win-groups > .win-vertical .win-listlayout .win-groupheader {
+  display: block;
+  font-size: 15px;
+  line-height: @list-header-height;
+  padding: 0;
+  text-align: center;
+  width: @list-header-width;
+}
+
+.win-listview.win-groups > .win-vertical .win-surface.win-listlayout {
+  margin-top: 0;
+}
+
+/**
+ * Style items in lists.
+ */
+.win-listview > .win-vertical .win-listlayout .win-container {
+  margin: 0;
+}
+
+.win-listview > .win-vertical .win-listlayout .win-item {
+  cursor: pointer;
+  height: @list-item-height;
+  padding: 0 @default-padding;
+  width: 100%;
+}
+
+/**
+ * Show a pointer cursor for the split view toggle.
+ */
+
+.win-splitviewpanetoggle {
+  cursor: pointer;
+}
+
+/**
+ * Style the split view pane and its buttons.
+ */
+
+.win-splitview-pane {
+  background-color: @navigation-background-color;
+  display: flex;
+}
+
+.win-splitview-pane .win-navbarcommand-button,
+.win-splitview-pane .win-navbarcommand-splitbutton {
+  background-color: transparent;
+}

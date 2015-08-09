@@ -1,0 +1,63 @@
+/**
+ * Colors
+ */
+@brand-color:  #0072c6;
+@subtle-color: #777777;
+
+/**
+ * Margins and paddings.
+ */
+@default-margin:  12px;
+@default-padding: 12px;
+
+/**
+ * Header bar.
+ */
+
+@header-background-color: @brand-color;
+@header-height:           48px;
+
+/**
+ * Navigation pane.
+ */
+@navigation-background-color: darken(white, 10%);
+@navigation-width:            48px;
+
+/**
+ * Sidebar pane.
+ */
+@sidebar-width: (320px - @navigation-width);
+
+/**
+ * List headers.
+ */
+@list-header-background-color: @brand-color;
+@list-header-text-color:       white;
+@list-header-height:           32px;
+@list-header-width:            32px;
+
+/**
+ * List items.
+ */
+@list-item-height: @navigation-width;
+
+/**
+ * List avatars.
+ */
+@list-avatar-border-radius: 50%;
+@list-avatar-margin:        (@list-item-height - @list-avatar-height) / 2 0;
+@list-avatar-width:         32px;
+@list-avatar-height:        @list-avatar-width;
+
+/**
+ * Page title.
+ */
+@page-title-padding: @default-padding * 2;
+
+/**
+ * Page avatars.
+ */
+@page-avatar-border-radius: 50%;
+@page-avatar-margin:        0;
+@page-avatar-width:         (@list-item-height - @default-padding) * 2;
+@page-avatar-height:        @page-avatar-width;

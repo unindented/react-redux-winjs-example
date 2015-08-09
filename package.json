@@ -1,0 +1,110 @@
+{
+  "name":        "react-redux-winjs-example",
+  "productName": "React+Redux+WinJS",
+  "description": "Example app using React, Redux and WinJS.",
+  "version":     "0.0.0",
+  "license":     "MIT",
+
+  "private":     true,
+  "main":        "index.js",
+
+  "author": {
+    "name" :  "Daniel Perez Alvarez",
+    "email" : "unindented@gmail.com",
+    "url" :   "https://unindented.org/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url":  "git@github.com:unindented/react-redux-winjs-example.git"
+  },
+
+  "scripts": {
+    "start":   "grunt serve",
+    "test":    "grunt test",
+    "release": "grunt release",
+    "publish": "git subtree push --prefix dist/web/ origin gh-pages"
+  },
+
+  "dependencies": {
+    "history":                   "^1.9.0",
+    "immutable":                 "^3.7.5",
+    "lodash":                    "^3.10.1",
+    "react":                     "^0.13.3",
+    "react-immutable-proptypes": "^1.2.0",
+    "react-redux":               "^3.0.1",
+    "react-router":              "^1.0.0-rc1",
+    "react-winjs":               "^2.4.0",
+    "redux":                     "^3.0.0",
+    "redux-thunk":               "^1.0.0",
+    "reselect":                  "^2.0.0",
+    "shallowequal":              "^0.2.2",
+    "whatwg-fetch":              "^0.9.0",
+    "winjs":                     "^4.3.0"
+  },
+
+  "devDependencies": {
+    "autoprefixer":                 "^6.0.0",
+    "babel-core":                   "^5.8.25",
+    "babel-runtime":                "^5.8.25",
+    "coveralls":                    "^2.11.4",
+    "eslint":                       "^1.6.0",
+    "eslint-config-standard":       "^4.4.0",
+    "eslint-config-standard-react": "^1.1.0",
+    "eslint-plugin-standard":       "^1.3.0",
+    "eslint-plugin-react":          "^3.3.1",
+    "jasmine-core":                 "^2.3.4",
+    "jasmine-jquery-matchers":      "^1.0.0",
+    "jasmine-immutable-matchers":   "^0.1.0",
+    "jquery":                       "^2.1.4",
+    "less":                         "^2.5.3",
+    "node-libs-browser":            "^0.5.3",
+    "phantomjs":                    "^1.9.18",
+    "webpack":                      "^1.12.2",
+    "webpack-dev-server":           "^1.12.0",
+
+    "loader-utils":                 "^0.2.11",
+
+    "babel-loader":                 "^5.3.2",
+    "css-loader":                   "^0.19.0",
+    "exports-loader":               "^0.6.2",
+    "expose-loader":                "^0.7.0",
+    "file-loader":                  "^0.8.4",
+    "imports-loader":               "^0.6.4",
+    "istanbul-instrumenter-loader": "^0.1.3",
+    "json-loader":                  "^0.5.3",
+    "less-loader":                  "^2.2.1",
+    "postcss-loader":               "^0.6.0",
+    "react-hot-loader":             "^1.3.0",
+    "style-loader":                 "^0.12.3",
+    "wrap-loader":                  "^0.1.0",
+
+    "extract-text-webpack-plugin":  "^0.8.2",
+    "stats-webpack-plugin":         "^0.2.2",
+
+    "karma":                        "^0.13.10",
+    "karma-coverage":               "^0.5.1",
+    "karma-jasmine":                "^0.3.6",
+    "karma-sourcemap-loader":       "^0.3.5",
+    "karma-webpack":                "^1.7.0",
+
+    "karma-phantomjs-launcher":     "^0.2.1",
+    "karma-chrome-launcher":        "^0.2.1",
+    "karma-firefox-launcher":       "^0.1.6",
+    "karma-opera-launcher":         "^0.3.0",
+    "karma-safari-launcher":        "^0.1.1",
+    "karma-ie-launcher":            "^0.2.0",
+
+    "grunt":                        "^0.4.5",
+    "grunt-concurrent":             "^2.0.3",
+    "grunt-contrib-clean":          "^0.6.0",
+    "grunt-contrib-connect":        "^0.11.2",
+    "grunt-legal-eagle":            "^0.2.0",
+    "grunt-karma":                  "^0.12.1",
+    "grunt-webpack":                "^1.0.11",
+
+    "load-grunt-config":            "^0.17.2",
+
+    "fortune-example":              "unindented/fortune-example"
+  }
+}
