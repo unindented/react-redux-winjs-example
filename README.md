@@ -1,4 +1,4 @@
-# React+Redux+WinJS Example [![Build Status](https://img.shields.io/travis/unindented/react-redux-winjs-example.svg)](http://travis-ci.org/unindented/react-redux-winjs-example) [![Dependency Status](https://img.shields.io/gemnasium/unindented/react-redux-winjs-example.svg)](https://gemnasium.com/unindented/react-redux-winjs-example) [![Coverage Status](https://img.shields.io/coveralls/unindented/react-redux-winjs-example.svg)](https://coveralls.io/r/unindented/react-redux-winjs-example)
+# React+Redux+WinJS Example [![Build Status](https://img.shields.io/travis/unindented/react-redux-winjs-example.svg)](http://travis-ci.org/unindented/react-redux-winjs-example) [![Coverage Status](https://img.shields.io/coveralls/unindented/react-redux-winjs-example.svg)](https://coveralls.io/r/unindented/react-redux-winjs-example)
 
 Example using [React](https://github.com/facebook/react) for rendering, [Redux](https://github.com/gaearon/redux) for containing state, and [WinJS](https://github.com/winjs/winjs) as UI toolkit.
 
